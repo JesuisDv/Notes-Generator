@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Notes Generator</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  
+  <div class="ingresoManual">
+    <h1 class="titulo">Notes Generator</h1>
+    <!-- Puedes escribir o pegar los datos manualmente. -->
+    <h2>Ingreso manual de datos: </h2>
+    <textarea id="textoManual" placeholder="Se recomienda pegar los datos directamente desde excel."></textarea>
+
+    <!-- Cargar archivo excel -->
+    <h3>O cargar archivo excel (.xlsx): </h3>
+    <input type="file" id="archivoExcel" accept=".xlsx">
+
+    <br>
+
+    <!-- Boton para arrancar proceso -->
+    <button onclick="" id="btnGenerar">Generar Notas</button>
+  </div>
+
+  <div id="notasGeneradas">
+    <h3 style="text-align: center;">Resultado</h3>
+    <pre id="salidaNotas"></pre>
+
+  </div>
+</body>
+</html>

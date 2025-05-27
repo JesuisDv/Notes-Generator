@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.titulo{
+padding: 10px;
+text-align: center;
+}
+
+.ingresoManual{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 20px;
+    margin: 20px;
+    gap: 30px;
+}
+
+#textoManual{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 2px rgba(100, 76, 76, 0.579);
+    text-align: left;
+    background-color: #dddddd;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#archivoExcel{
+    padding: 10px;
+    border-radius: 8px;
+    color: #000000;
+    margin: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#btnGenerar{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#ffed22;
+    margin-left: 20px;
+}
+
+#archivoExcel::file-selector-button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #ffed22;
+    border-radius: 5px;
+}
+
+#notasGeneradas{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 20px;
+    margin: 20px;
+    gap: 30px;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
