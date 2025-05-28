@@ -73,3 +73,14 @@ text-align: center;
     border-radius: 10px;
 }
 
+#btnLimpiar{
+    width: 100px;
+    margin-left: 25px;
+    height: 30px;
+    background-color: rgb(36, 111, 203);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
