@@ -14,6 +14,7 @@
     <!-- Puedes escribir o pegar los datos manualmente. -->
     <h2>Ingreso manual de datos: </h2>
     <textarea id="textoManual" placeholder="Se recomienda pegar los datos directamente desde excel."></textarea>
+    <button id="btnLimpiar" onclick="limpiarTexto()">Limpiar</button>
 
     <!-- Cargar archivo excel -->
     <h3>O cargar archivo excel (.xlsx): </h3>
@@ -22,7 +23,7 @@
     <br>
 
     <!-- Boton para arrancar proceso -->
-    <button onclick="" id="btnGenerar">Generar Notas</button>
+    <button onclick="procesarDatos()" id="btnGenerar">Generar Notas</button>
   </div>
 
   <div id="notasGeneradas">
@@ -31,4 +32,5 @@
 
   </div>
 </body>
+<script src="./scripts.js"></script>
 </html>
