@@ -81,6 +81,13 @@ text-align: center;
     color: white;
     border-radius: 5px;
     border: none;
-
 }
+
+pre {
+  max-height: 300px;       
+  overflow-y: auto;        /* Activa scroll vertical si el contenido excede */
+  padding: 10px;           
+  white-space: pre-wrap;    
+}
+
 
